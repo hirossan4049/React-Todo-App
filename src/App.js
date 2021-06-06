@@ -35,9 +35,13 @@ function App() {
     return (
         <>
             <Header title={"Todoを入力"} onAdd={onAddClicked}/>
-            <h1>hello body</h1>
+            <h3>未完了</h3>
             <div className={"todo-box"}>
-                <Todos todos={todos}></Todos>
+                <Todos todos={todos.filter((todo) => (!todo.isDone))}/>
+            </div>
+            <h3>完了</h3>
+            <div className={"todo-box"}>
+                <Todos todos={todos.filter((todo) => (todo.isDone))}/>
             </div>
         </>
     );
