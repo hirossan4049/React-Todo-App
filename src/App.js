@@ -35,11 +35,11 @@ function App() {
     return (
         <>
             <Header title={"Todoを入力"} onAdd={onAddClicked}/>
-            <h3>未完了</h3>
+            <h3 className={"is-finished"}>未完了</h3>
             <div className={"todo-box"}>
                 <Todos todos={todos.filter((todo) => (!todo.isDone))}/>
             </div>
-            <h3>完了</h3>
+            <h3 className={"is-finished"}>完了</h3>
             <div className={"todo-box"}>
                 <Todos todos={todos.filter((todo) => (todo.isDone))}/>
             </div>
