@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.28332dc0.chunk.css",
-    "main.js": "/static/js/main.59b29bab.chunk.js",
-    "main.js.map": "/static/js/main.59b29bab.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ff6de8ee.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ff6de8ee.js.map",
-    "static/js/2.b94b0553.chunk.js": "/static/js/2.b94b0553.chunk.js",
-    "static/js/2.b94b0553.chunk.js.map": "/static/js/2.b94b0553.chunk.js.map",
-    "static/js/3.a4902378.chunk.js": "/static/js/3.a4902378.chunk.js",
-    "static/js/3.a4902378.chunk.js.map": "/static/js/3.a4902378.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.28332dc0.chunk.css.map": "/static/css/main.28332dc0.chunk.css.map",
-    "static/js/2.b94b0553.chunk.js.LICENSE.txt": "/static/js/2.b94b0553.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.css": "/React-Todo-App/static/css/main.28332dc0.chunk.css",
+    "main.js": "/React-Todo-App/static/js/main.59b29bab.chunk.js",
+    "main.js.map": "/React-Todo-App/static/js/main.59b29bab.chunk.js.map",
+    "runtime-main.js": "/React-Todo-App/static/js/runtime-main.2a1fe088.js",
+    "runtime-main.js.map": "/React-Todo-App/static/js/runtime-main.2a1fe088.js.map",
+    "static/js/2.b94b0553.chunk.js": "/React-Todo-App/static/js/2.b94b0553.chunk.js",
+    "static/js/2.b94b0553.chunk.js.map": "/React-Todo-App/static/js/2.b94b0553.chunk.js.map",
+    "static/js/3.a4902378.chunk.js": "/React-Todo-App/static/js/3.a4902378.chunk.js",
+    "static/js/3.a4902378.chunk.js.map": "/React-Todo-App/static/js/3.a4902378.chunk.js.map",
+    "index.html": "/React-Todo-App/index.html",
+    "static/css/main.28332dc0.chunk.css.map": "/React-Todo-App/static/css/main.28332dc0.chunk.css.map",
+    "static/js/2.b94b0553.chunk.js.LICENSE.txt": "/React-Todo-App/static/js/2.b94b0553.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/React-Todo-App/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff6de8ee.js",
+    "static/js/runtime-main.2a1fe088.js",
     "static/js/2.b94b0553.chunk.js",
     "static/css/main.28332dc0.chunk.css",
     "static/js/main.59b29bab.chunk.js"
