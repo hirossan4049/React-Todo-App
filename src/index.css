@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.header {
+  display: flex;
+  height: 64px;
+  width: 90%;
+  margin: 24px auto;
+  border-radius: 10px;
+  box-shadow: 3px 3px 30px 0 rgba(0, 0, 0, .1);
+}
+.header input{
+  height: 100%;
+  width: 100%;
+  background: none;
+  border-width: 0;
+  font-size: 24px;
+  font-weight: bold;
+  margin: auto 24px;
+  left: 0;
+}
+.header .btn {
+  right: 0;
+  margin: 8px 16px;
+}
+
+.btn {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: 16px;
+}
