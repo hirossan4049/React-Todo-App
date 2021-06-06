@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #efefef;
 }
 
 code {
@@ -43,4 +44,30 @@ code {
   font-weight: bold;
   border-radius: 6px;
   font-size: 16px;
+}
+
+
+/*Todo*/
+.todo-box {
+  width: 90%;
+  margin: 24px auto;
+  background: white;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+.todo {
+  margin: 24px;
+}
+
+.todo .title {
+  height: 100%;
+  margin: auto 0;
+  font-weight: bold;
+  font-size: 22px;
+}
+.todo .description {
+  margin: auto 0;
+  font-size: 16px;
+  color: #acacac;
 }

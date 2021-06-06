@@ -36,7 +36,9 @@ function App() {
         <>
             <Header title={"Todoを入力"} onAdd={onAddClicked}/>
             <h1>hello body</h1>
-            <Todos todos={todos}></Todos>
+            <div className={"todo-box"}>
+                <Todos todos={todos}></Todos>
+            </div>
         </>
     );
 }
