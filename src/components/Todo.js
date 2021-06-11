@@ -1,7 +1,7 @@
 import {useContext} from "react";
 import {TodoContext} from "../App"
 
-const Todo = ({todo,}) => {
+const Todo = ({todo}) => {
     const handleClickTodo = useContext(TodoContext)
     return (
         <div className={"todo"}>
