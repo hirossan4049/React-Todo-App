@@ -1,5 +1,8 @@
+import {useContext} from "react";
+import {TodoContext} from "../App"
 
-const Todo = ({todo, handleClickTodo}) => {
+const Todo = ({todo,}) => {
+    const handleClickTodo = useContext(TodoContext)
     return (
         <div className={"todo"}>
             {/*checked={todo.isDone}*/}

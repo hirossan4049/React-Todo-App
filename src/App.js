@@ -3,7 +3,8 @@ import './App.css';
 
 import Header from "./components/Header"
 import Todos from "./components/Todos"
-import {useState} from "react";
+import {useState, createContext} from "react";
+export const TodoContext = createContext({})
 
 function App() {
     const [todos, setTodos] = useState([
@@ -43,19 +44,24 @@ function App() {
         setTodos(newTodo)
     }
 
+
+
     return (
         <>
             <Header title={"Todoを入力"} onAdd={onAddClicked}/>
-            <h3 className={"is-finished"}>未完了</h3>
-            <div className={"todo-box"}>
-                <Todos handleClickTodo={handleClickTodo} todos={todos.filter((todo) => (!todo.isDone))}/>
-            </div>
-            <h3 className={"is-finished"}>完了</h3>
-            <div className={"todo-box"}>
-                <Todos handleClickTodo={handleClickTodo} todos={todos.filter((todo) => (todo.isDone))}/>
-            </div>
+            <TodoContext.Provider value={handleClickTodo}>
+                <h3 className={"is-finished"}>未完了</h3>
+                <div className={"todo-box"}>
+                    <Todos handleClickTodo={handleClickTodo} todos={todos.filter((todo) => (!todo.isDone))}/>
+                </div>
+                <h3 className={"is-finished"}>完了</h3>
+                <div className={"todo-box"}>
+                    <Todos handleClickTodo={handleClickTodo} todos={todos.filter((todo) => (todo.isDone))}/>
+                </div>
+            </TodoContext.Provider>
         </>
     );
 }
+
 
 export default App;
