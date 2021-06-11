@@ -32,16 +32,27 @@ function App() {
         }])
     }
 
+    const handleClickTodo = (id) => {
+        const newTodo = todos.map(todo => {
+            if (todo.id === id) {
+                todo.isDone = !todo.isDone
+            }
+            return todo
+        })
+
+        setTodos(newTodo)
+    }
+
     return (
         <>
             <Header title={"Todoを入力"} onAdd={onAddClicked}/>
             <h3 className={"is-finished"}>未完了</h3>
             <div className={"todo-box"}>
-                <Todos todos={todos.filter((todo) => (!todo.isDone))}/>
+                <Todos handleClickTodo={handleClickTodo} todos={todos.filter((todo) => (!todo.isDone))}/>
             </div>
             <h3 className={"is-finished"}>完了</h3>
             <div className={"todo-box"}>
-                <Todos todos={todos.filter((todo) => (todo.isDone))}/>
+                <Todos handleClickTodo={handleClickTodo} todos={todos.filter((todo) => (todo.isDone))}/>
             </div>
         </>
     );

@@ -1,0 +1,15 @@
+.header input{
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin: auto 24px;
+    left: 0;
+}
+.header .btn {
+    right: 0;
+    margin: 8px 16px;
+}

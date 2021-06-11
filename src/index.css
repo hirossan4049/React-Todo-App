@@ -22,21 +22,6 @@ code {
   border-radius: 10px;
   box-shadow: 3px 3px 30px 0 rgba(0, 0, 0, .1);
 }
-.header input{
-  height: 100%;
-  width: 100%;
-  background: none;
-  border: none;
-  outline: none;
-  font-size: 24px;
-  font-weight: bold;
-  margin: auto 24px;
-  left: 0;
-}
-.header .btn {
-  right: 0;
-  margin: 8px 16px;
-}
 
 .btn {
   background: black;
@@ -88,6 +73,23 @@ code {
   font-size: 16px;
   color: #acacac;
 }
+
+.header input{
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  font-weight: bold;
+  margin: auto 24px;
+  left: 0;
+}
+.header .btn {
+  right: 0;
+  margin: 8px 16px;
+}
+
 
 
 /* CHECKBOX */

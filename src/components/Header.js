@@ -1,5 +1,7 @@
 import PropTypes from "prop-types"
 import {useState} from "react";
+import styles from "./Header.module.css";
+
 
 const Header = ({title, onAdd}) => {
     // const onClick = (e) => {
@@ -8,6 +10,7 @@ const Header = ({title, onAdd}) => {
     const [text, setText] = useState("")
 
     return (
+        // <header className={styles.header}>
         <header className="header">
             <input title="aa" placeholder={"Todoを入力"} value={text} onChange={(e) => setText(e.target.value)}/>
             <button onClick={() => {

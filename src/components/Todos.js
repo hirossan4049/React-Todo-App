@@ -1,10 +1,10 @@
 import Todo from "./Todo"
 
-const Todos = ({todos}) => {
+const Todos = ({todos, handleClickTodo}) => {
     return (
         <>
             {todos.map((todo) => (
-                <Todo todo={todo} key={todo.id} style={{backgroundColor: "red"}}>{todo.title}</Todo>
+                <Todo handleClickTodo={handleClickTodo} todo={todo} key={todo.id} style={{backgroundColor: "red"}}>{todo.title}</Todo>
             ))}
         </>
     )
